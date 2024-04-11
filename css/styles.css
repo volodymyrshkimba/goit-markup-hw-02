@@ -2,6 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
   background-color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -17,6 +19,8 @@ ul {
 
 button {
   cursor: pointer;
+  color: inherit;
+  border: none;
 }
 
 .page-logo {
@@ -34,12 +38,85 @@ button {
 
 .nav-link {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .address-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
+}
+
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+}
+
+.hero-btn {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.about-title {
+  font-weight: 700;
+  line-height: 1.11111;
+  font-size: 36px;
+}
+
+.about-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.about-item-text {
+  color: #434455;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-item-text {
+  color: #434455;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  line-height: 1.11111;
+  font-size: 36px;
+}
+
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.portfolio-item-text {
+  color: #434455;
+}
+
+.page-footer {
+  background-color: #2e2f42;
 }
