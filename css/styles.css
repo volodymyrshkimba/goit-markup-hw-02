@@ -1,10 +1,4 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
-  background-color: #ffffff;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+/* ============ COMMON STYLES ============ */
 
 a {
   text-decoration: none;
@@ -23,11 +17,40 @@ button {
   border: none;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+.section-title {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  font-size: 36px;
+  text-align: center;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.item-text {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ============ HEADER ============ */
+
 .page-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -38,11 +61,24 @@ button {
 
 .nav-link {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
 }
 
 .address-link {
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
+/* ============ HERO ============ */
 
 .hero {
   background-color: #2e2f42;
@@ -52,71 +88,49 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .hero-btn {
   background-color: #4d5ae5;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
-.about-title {
-  font-weight: 700;
-  line-height: 1.11111;
-  font-size: 36px;
+.hero-btn:hover,
+.hero-bt:focus {
+  background-color: #404bbf;
 }
 
-.about-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-.about-item-text {
-  color: #434455;
-}
+/* ============ TEAM ============ */
 
 .team {
   background-color: #f4f4fd;
-}
-
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
 }
 
 .team-item {
   background-color: #ffffff;
 }
 
-.team-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+.team .item-title,
+.team .item-text {
+  text-align: center;
 }
-
-.team-item-text {
-  color: #434455;
-}
-
-.portfolio-title {
-  font-weight: 700;
-  line-height: 1.11111;
-  font-size: 36px;
-}
-
-.portfolio-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-.portfolio-item-text {
-  color: #434455;
-}
+/* ============ FOOTER ============ */
 
 .page-footer {
   background-color: #2e2f42;
+}
+
+.page-footer .page-logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
