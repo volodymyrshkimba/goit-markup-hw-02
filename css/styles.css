@@ -8,7 +8,6 @@ a {
 ol,
 ul {
   list-style-type: none;
-  font-style: normal;
 }
 
 button {
@@ -17,9 +16,13 @@ button {
   border: none;
 }
 
+address {
+  font-style: normal;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -29,6 +32,7 @@ body {
   line-height: 1.11;
   font-size: 36px;
   text-align: center;
+  color: #2e2f42;
 }
 
 .item-title {
@@ -36,10 +40,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .item-text {
-  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -53,16 +58,18 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-part {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .nav-link:hover,
@@ -73,7 +80,6 @@ body {
 }
 
 .address-link {
-  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -101,7 +107,7 @@ body {
 }
 
 .hero-btn:hover,
-.hero-bt:focus {
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -125,7 +131,7 @@ body {
   background-color: #2e2f42;
 }
 
-.page-footer .page-logo {
+.page-footer .logo-part {
   color: #f4f4fd;
 }
 
